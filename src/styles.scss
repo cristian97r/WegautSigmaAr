@@ -11,8 +11,10 @@ body {
   padding: 0;
   box-sizing: border-box;
   border: none;
-  background-image: url("assets/images/SBM3_PKG_BG_001_CGI_5024.png");
-  background-repeat: no-repeat;
+  background-image: url("assets/images/SBM3_PKG_BG_001_CGI_5024.png"),
+    url("assets/images/Grupo\ 1.png");
+  background-repeat: no-repeat, repeat;
+  background-position: center, center;
   background-position: center;
   background-attachment: fixed;
   background-size: auto;
