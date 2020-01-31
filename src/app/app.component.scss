@@ -10,7 +10,7 @@
   position: absolute;
   z-index: 10;
   height: 70vh;
-  left: 160vh;
+  left: 154vh;
   top: 14vh;
   overflow: visible;
 }
@@ -44,5 +44,35 @@
 
   #PROXIMAMENTE___ {
     left: 56vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #PROXIMAMENTE___ {
+    left: -9vh;
+    top: 15vh;
+    overflow: hidden;
+    text-align: center;
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vh;
+  }
+
+  #Captura_de_Pantalla_2020_01_29 {
+    position: fixed;
+    left: 4vh;
+    top: -52px;
+    overflow: hidden;
+  }
+  #Launch_screeen_4288 {
+    z-index: 10;
+    left: 10vh;
+    top: 27vh;
+    overflow: hidden;
+  }
+
+  #SBM3_PKG_BG_001_CGI_5024 {
+    opacity: 0;
   }
 }
